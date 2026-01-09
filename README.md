@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 AI Study Pal
+#  AI Study Pal
 
 **Your Intelligent Study Assistant - Powered by AI, ML, DL & NLP**
 
@@ -17,28 +17,22 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎯 Core Capabilities
+###  Core Capabilities
 
-- **📅 Study Plan Generation** - Create personalized study schedules based on subject, available hours, and learning scenario
-- **🎯 Quiz Generator** - Generate quizzes from educational content with ML-powered difficulty classification
-- **📝 Text Summarization** - Summarize long texts using advanced extractive summarization techniques
-- **💡 Study Tips** - Get AI-powered study tips and keyword extraction using NLP
-- **💪 Motivational Feedback** - Receive personalized feedback based on your performance level
-- **📊 Data Analysis** - Explore study patterns and subject distribution with EDA
+- ** Study Plan Generation** - Create personalized study schedules based on subject, available hours, and learning scenario
+- ** Quiz Generator** - Generate quizzes from educational content with ML-powered difficulty classification
+- ** Text Summarization** - Summarize long texts using advanced extractive summarization techniques
+- ** Study Tips** - Get AI-powered study tips and keyword extraction using NLP
+- ** Motivational Feedback** - Receive personalized feedback based on your performance level
+- ** Data Analysis** - Explore study patterns and subject distribution with EDA
 
-### 🎨 Modern UI/UX
 
-- **Dark Theme** - Beautiful gradient-based dark theme with glassmorphism effects
-- **Tab Navigation** - Intuitive tab-based interface for easy feature access
-- **Responsive Design** - Fully responsive design that works on all devices
-- **Smooth Animations** - Polished animations and transitions throughout
-- **Real-time Feedback** - Loading states and visual feedback for all operations
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Framework**: Flask 2.3+
@@ -61,7 +55,7 @@
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -71,7 +65,7 @@ Before you begin, ensure you have met the following requirements:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Step 1: Clone the Repository
 
@@ -112,7 +106,7 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk
 
 ---
 
-## 🏃 Running the Application
+##  Running the Application
 
 ### Start the Server
 
@@ -139,9 +133,9 @@ You should see the AI Study Pal interface! 🎉
 
 ---
 
-## 📖 Usage
+##  Usage
 
-### 📅 Generate Study Plan
+###  Generate Study Plan
 
 1. Navigate to the **Study Plan** tab
 2. Enter a subject (e.g., "Machine Learning", "Mathematics", "Science")
@@ -154,7 +148,7 @@ You should see the AI Study Pal interface! 🎉
 6. Review your personalized schedule
 7. Download as CSV if needed
 
-### 🎯 Generate Quiz
+###  Generate Quiz
 
 1. Navigate to the **Quiz Generator** tab
 2. Paste educational content in the text area
@@ -163,14 +157,14 @@ You should see the AI Study Pal interface! 🎉
 5. Review questions with difficulty levels (Easy/Medium/Hard)
 6. Check resource suggestions for further learning
 
-### 📝 Summarize Text
+###  Summarize Text
 
 1. Navigate to the **Summarize** tab
 2. Enter text to summarize (recommended: 200+ words)
 3. Click **"Summarize"**
 4. View the condensed summary with word count statistics
 
-### 💡 Get Study Tips
+###  Get Study Tips
 
 1. Navigate to the **Study Tips** tab
 2. Enter educational content
@@ -178,7 +172,7 @@ You should see the AI Study Pal interface! 🎉
 4. Click **"Get Study Tips"**
 5. Review personalized tips and extracted keywords
 
-### 💪 Get Motivational Feedback
+###  Get Motivational Feedback
 
 1. Navigate to the **Feedback** tab
 2. Select your performance level:
@@ -221,7 +215,7 @@ ai-study-pal/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -247,7 +241,7 @@ curl -X POST http://localhost:5000/api/generate_plan \
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Secret Key (Production)
 
@@ -267,7 +261,7 @@ app.run(debug=True, host='0.0.0.0', port=5001)  # Change port number
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ### Core Dependencies
 
@@ -284,7 +278,7 @@ See `requirements.txt` for the complete list.
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Virtual Environment Activation Issues (Windows)
 
@@ -336,7 +330,7 @@ If TensorFlow fails to install on Python 3.13, consider:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -350,13 +344,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+##  Author
 
 **N.uthkarsh sai**
 
@@ -364,16 +358,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
-
-- Flask community for the excellent framework
-- TensorFlow team for deep learning capabilities
-- NLTK contributors for NLP tools
-- All open-source contributors
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This application is for **educational purposes**. For production use, ensure proper:
 - Security measures
